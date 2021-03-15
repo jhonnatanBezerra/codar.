@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem ;
+}
+
+.headerLogo{
+  color: var(--red);
+  font-style: italic;
+}
+
+.headerLogo > h1 > span{
+  color: black;
+}
+
+.headerLinks > a{
+  margin-right: 1rem;
+}
+.headerLinks > button{
+  width: 240px;
+  padding: 0.8rem 3rem;
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: 300;
+  border: none;
+  background: var(--red);
+  border-radius: 10px;
+}
